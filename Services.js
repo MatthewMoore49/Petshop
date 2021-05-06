@@ -1,14 +1,14 @@
 var service = [
     {
       title: 'Pet Grooming',
-      image: './img/gerbile.jpg',
+      image: './groom.jpg',
       price: '$7,500-15,000',
       description: "hello"
     },
 
     {
       title: 'Pet Grooming',
-      image: './Princess.jpg',
+      image: './',
       price: '$7,500-15,000',
       description: "hello"
     }
