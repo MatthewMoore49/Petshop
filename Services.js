@@ -1,6 +1,6 @@
-var shop = [
+var service = [
     {
-      title: 'Tigers',
+      title: 'Pet Grooming',
       image: './img/gerbile.jpg',
       price: '$7,500-15,000'
       description
