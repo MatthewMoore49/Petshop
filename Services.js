@@ -1,20 +1,35 @@
 var service = [
     {
       title: 'Pet Grooming',
-      image: './groom.jpg',
-      price: '$7,500-15,000',
-      description: "hello"
+      image: './',
+      price: '24.99-34.99',
+      description: "Small pets to Large pets"
     },
 
     {
-      title: 'Pet Grooming',
+      title: 'Pet Spanking',
       image: './',
       price: '$7,500-15,000',
       description: "hello"
-    }
-    
-  
-    
+    },
+    {
+    title: 'Pet Spanking',
+    image: './',
+    price: '$7,500-15,000',
+    description: "hello"
+  },
+  {
+    title: 'Pet Spanking',
+    image: './',
+    price: '$7,500-15,000',
+    description: "hello"
+  },
+  {
+    title: 'Pet Spanking',
+    image: './',
+    price: '$7,500-15,000',
+    description: "hello"
+  },
     ]
     
     var postHTML = " "

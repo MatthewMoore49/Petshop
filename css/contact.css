@@ -18,7 +18,7 @@ textarea {
 }
 
 .container {
-
+    background:rgb(1, 9, 10);
     position:relative;
     width: 100%;
     min-height: 100vh;
@@ -29,13 +29,14 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    vertical-align: bottom;   
     
 }
 
 .form {
     width: 100%;
     max-width: 820px;
+    
     background-color: rgb(204, 228, 238);
     border-radius: 4px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
@@ -43,7 +44,16 @@ textarea {
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr)
+    
 }
+footer{
+    position:sticky;
+
+
+
+}
+
+
 
 .contact-info-form {
     background-color: #000ed5;
