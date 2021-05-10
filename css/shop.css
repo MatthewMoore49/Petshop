@@ -1,0 +1,21 @@
+
+div.product{
+
+    object-fit:contain;
+    width:25vh;
+    height: 50vh;
+    overflow:hidden;
+    text-align: center;
+    color:rgb(32, 4, 110);
+    
+    
+    }
+    button.btn.btn-primary{
+        border: 2px solid #101110; 
+        background-color:rgb(93, 72, 209)
+        transition-duration: 0.8s;
+    }
+    
+    
+    
+    
