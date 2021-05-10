@@ -1,4 +1,13 @@
 
 body {
   padding-top: 56px;
+  image: responsive;
 }
+img.d-block.img-fluid{
+height:inherit;
+
+
+
+}
+
+
