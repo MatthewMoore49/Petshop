@@ -2,19 +2,21 @@
 div.product{
 
     object-fit:contain;
-    width:25vh;
+    width:1vh;
     height: 50vh;
     overflow:hidden;
     text-align: center;
     color:rgb(32, 4, 110);
+    column-gap:50px;
     
     
     }
     button.btn.btn-primary{
-        border: 2px solid #101110; 
-        background-color:rgb(93, 72, 209)
-        transition-duration: 0.8s;
-    }
+            color: rgb(148, 48, 48); font-size: 13px; line-height: 13px; padding: 5px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(80, 34, 34) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+           button :hover {
+            background: #a41c1c; }
+          button :active {
+            background: #144E75; }
     
     
     

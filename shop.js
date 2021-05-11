@@ -122,11 +122,11 @@ var service = [
    
   
   
-    for (var i=0; i < service.length; i++){
+    for (var i=0; i < 12; i++){
         var heading = '<div class="product ' + '"><span><h5>' + service[i].title + '</h5>'
         var image = '<img src="' + service[i].image + '"/'
         var price = '<p> $' + service[i].price + '</p></span>'
-        var description = '<div class=""><p>'+ service[i].description + '</p><button type="button" class="btn btn-primary"> add to cart</button></div></div>'
+        var description = '<div class=""><p>'+ service[i].description + '</p><button type="button" class="btn"> add to cart</button></div></div>'
         var concatThis = heading + image + price + description;
         postHTML = postHTML + concatThis
     }
