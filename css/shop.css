@@ -1,23 +1,58 @@
 
 div.product{
-
-    object-fit:contain;
-    width:1vh;
-    height: 50vh;
+    width:36vh;
+    height: 43vh;
     overflow:hidden;
-    text-align: center;
-    color:rgb(32, 4, 110);
-    column-gap:50px;
-    
+    text-align: center;      
+      color: slategrey;
+      outline-style:outset;
     
     }
-    button.btn.btn-primary{
-            color: rgb(148, 48, 48); font-size: 13px; line-height: 13px; padding: 5px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(80, 34, 34) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+    button.btn{
+            color: rgb(128, 15, 15);
+             font-size: 13px;
+              line-height: 13px;
+               padding: 5px; 
+               border-radius: 10px; 
+               font-family: Georgia, serif;
+                font-weight: normal;
+                 text-decoration: none;
+                  font-style: normal;
+                   font-variant: normal;
+                    text-transform: none; 
+                    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+                     box-shadow: rgb(80, 34, 34) 5px 5px 15px 5px;
+                      border: 2px solid rgb(28, 110, 164);
+                       display: inline-block;}
            button :hover {
             background: #a41c1c; }
           button :active {
-            background: #144E75; }
+            background: #92989c; }
     
     
-    
-    
+
+    img{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+
+
+
+    }
+    body{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 75px 0;
+      border: 2px solid black;
+}
+    h5{
+      color:rgb(158, 14, 14)
+
+    }
+   p{
+     color:rgb(158, 14, 14);
+   }
+   span{
+    color:rgb(158, 14, 14);
+   }

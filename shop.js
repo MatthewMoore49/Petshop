@@ -3,98 +3,98 @@ var service = [
       title: 'Pet Grooming',
       image: "./groom.jpeg",
       price: '24.99-34.99',
-      description: "Small pets to Large pets All welcome!"
+      description: "Small pets to Large pets           All welcome!"
     },
 
     {
-      title: 'Cat collars',
-      image: './Fuckincollar.jpeg',
+      title: 'Cat color',
+      image: './catcoll.jpeg',
       price: '19.99-$22.99',
-      description: "Stylish new collar for the cat's night out! "
+      description: " Collar for the cat's night out! "
     },
     {
     title: 'Stud collar',
     image: './pinkstud.jpg',
     price: '14.99-$19.99',
-    description: "Stylish and pink studded collar!"
+    description: "Stylish and pink!"
   },
   {
-    title: 'Pet Spanking',
-    image: './groom.jpeg',
-    price: '$7,500-15,000',
-    description: "hello I think cheese is best melted"
+    title: 'Stylish leash',
+    image: './styleash.jpg',
+    price: '17.99-$21.99',
+    description: "Full harness leash "
   },
   {
-    title: 'Pet Spanking',
-    image: './groom.jpeg',
-    price: '$7,500-15,000',
-    description: "hello my whiskers are peppered"
+    title: 'Dish this!',
+    image: './bowler.jpg',
+    price: '11.99-$14.99',
+    description: "Matching food/water"
   },
   {
-    title: 'Pet Spanking',
-    image: './groom.jpeg',
-    price: '$7,500-15,000',
-    description: "hello I crave moisture as well as cat feces"
+    title: 'Organic Treat!',
+    image: './orgbone.jpg',
+    price: '7.99-$9.99',
+    description: "Organic variety bones"
   },
   {
-    title: 'Pet Grooming',
-    image: "./groom.jpeg",
-    price: '24.99-34.99',
-    description: "Small pets to Large pets"
+    title: 'Pet Shop Brand',
+    image: "./dfood.jpg",
+    price: '14.99-$17.99',
+    description: "Delicious!"
   },
   {
-    title: 'Pet Grooming',
-    image: "./groom.jpeg",
-    price: '24.99-34.99',
-    description: "Small pets to Large pets"
+    title: 'Pet Comfort',
+    image: "./petcove.jpg",
+    price: '22.99-$26.99',
+    description: "Let's get COZY"
   },
   {
-    title: 'Pet Grooming',
-    image: "./groom.jpeg",
-    price: '24.99-34.99',
-    description: "Small pets to Large pets"
+    title: 'Pet carrier',
+    image: "./carrydog.jpg",
+    price: '24.99-$34.99',
+    description: "Carry On!"
   },
   {
-    title: 'Pet Grooming',
-    image: "./groom.jpeg",
-    price: '24.99-34.99',
-    description: "Small pets to Large pets"
+    title: 'Puppy sweater',
+    image: "./dsweater.jpg",
+    price: '14.99-$17.99',
+    description: "Wrap Me UP!"
   },
   {
-    title: 'Pet Grooming',
-    image: "./groom.jpeg",
-    price: '24.99-34.99',
-    description: "Small pets to Large pets"
+    title: 'Cat Dishin\'',
+    image: "./cdish.jpg",
+    price: '16.99-$18.99',
+    description: "Eat In Style"
   },
   {
-    title: 'Pet Grooming',
-    image: "./groom.jpeg",
-    price: '24.99-34.99',
-    description: "Small pets to Large pets"
+    title: 'Bouncing Balls',
+    image: "./petballs.jpg",
+    price: '.99 -  $2.99',
+    description: "Get the ball Jack!"
   },
   {
-    title: 'Pet Grooming',
-    image: "./groom.jpeg",
-    price: '24.99-34.99',
-    description: "Small pets to Large pets"
+    title: 'Lounging Pad',
+    image: "./Princess.jpg",
+    price: '24.99-$29.99',
+    description: "Just Be Lazy"
   },
   {
-    title: 'Pet Grooming',
-    image: "./groom.jpeg",
-    price: '24.99-34.99',
-    description: "Small pets to Large pets"
+    title: 'Feline Tower',
+    image: "./scratchtow.jpg",
+    price: '20.99-$49.99',
+    description: "For The Claws!"
   },
   {
-    title: 'Pet Grooming',
-    image: "./groom.jpeg",
-    price: '24.99-34.99',
-    description: "Small pets to Large pets"
+    title: 'Pet Sitting/Walking',
+    image: "./bluepark.jpg",
+    price: '1-100....',
+    description: "Inquire Within!!!"
   },
   {
-    title: 'Pet Grooming',
-    image: "./groom.jpeg",
-    price: '24.99-34.99',
-    description: "Small pets to Large pets"
+    title: 'Kitty Play Toy',
+    image: "./kittytoy.jpg",
+    price: '2.99-$9.99',
+    description: "Wide Variety"
   },
 
 
@@ -122,7 +122,7 @@ var service = [
    
   
   
-    for (var i=0; i < 12; i++){
+    for (var i=1; i < service.length; i++){
         var heading = '<div class="product ' + '"><span><h5>' + service[i].title + '</h5>'
         var image = '<img src="' + service[i].image + '"/'
         var price = '<p> $' + service[i].price + '</p></span>'
