@@ -1,0 +1,29 @@
+h1{
+    color: #FFF;
+  
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #0b07db, 0 0 30px #1a0381, 0 0 40px #49FF18, 0 0 55px #04011d, 0 0 75px #5618ff
+
+
+}
+p{
+color: blue;
+font-size: 16px;
+text-shadow:salmon;
+text align: center;
+font-variant: small-caps;
+
+
+}
+h2{
+color:midnightblue;
+font-family: Tahoma;
+font-size: 18px;
+letter-spacing: 2px;
+word-spacing: 2px;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+
+}

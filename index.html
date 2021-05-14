@@ -16,7 +16,7 @@
   <!-- Custom styles for this template -->
   <!--<link href="css/shop-homepage.css" rel="stylesheet">-->
 
-</head>
+</head><!--Moving body background with extra style-->
 
  <style>
   
@@ -35,14 +35,36 @@
 
 
      }
+     body  {
+    color:rgb(39, 21, 21);
+    text-align:center;
+    background-image: url('./white.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode:both;
+    animation: backgroundScroll 30s linear 10;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -180px 0px;}
+}
+
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -180px 0px;}
+
+}
  </style>
-<!--body>-->
-<body background = "texture2.jpg"> </body>
-  <!-- Navigation -->
+<!--Petstore Navbar-->
   
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
     <div class="container">
-      <a class="navbar-brand"  href="#">PetStore</a>
+      <a class="navbar-brand"  href="#">Pets-o-Fabuloso</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -69,24 +91,21 @@
     </div>
   </nav>
 
-  <!-- Page Content ///////////////////////////////////////////////////////////////////////////////-->
+ 
 
 
-  <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////-->
   
-      <!--////////////////////"wrapper"/////////////////////////////////////////////////////-->
-      <div id="wrapper" class="d-flex">
-      <!--////////////////////"wrapper"/////////////////////////////////////////////////////-->
-      <!--////////////////////"LEFT COLUMN"/////////////////////////////////////////////////////-->
+  
+     <!--////////////////////"LEFT COLUMN"/////////////////////////////////////////////////////-->
+      <div id="wrapper" class="d-flex">  
     <div class = " flex-col">
-      <div class = "float-left" id="side-pics">
+      <div class = "" id="side-pics">
     
-        <img src="./eGiftcard_Circle-1x.jpg" class="img-smallImg" alt="gift card" style="position: relative; top: 57px; right: 14px;">
-        <img src="./50percxent.jpg" class="img-smallImg" alt="b1g1-50%" style="position: relative; top: 57px; right: 14px;">
-        <img src="./todaysdeal.jpg" class="img-smallImg" alt="spend 50 $" style="position: relative; top:57px; right: 14px;">
-        <img src="./chewydeal.jpg" class="img-smallImg" alt="chewy promo" style="position: relative;top:57px; right: 14px;">
-        <img src="./spca.PNG" class="img-smallImg" alt="spca banner" style="position: relative; top: 75px; right: 23px; left:15px">
-    
+        <img src="./curbside.jpg" class="img-smallImg" alt="gift card" style="position: relative; top: 57px; right: 14px left: 50px;">
+        <img src="./home-delivery-icon-29.jpg" class="img-smallImg" alt="b1g1-50%" style="position: relative; top: 57px; right: 14px left: 15px;">
+        <img src="./doordash-acquire-caviar.jpg" class="img-smallImg" alt="spend 50 $" style="position: relative; top:90px; right: 14px left: 15px;">
+        <img src="./bigsale.jpg" class="img-smallImg" alt="chewy promo" style="position: relative;top:140px; right: 14px left: 20px;">
+     
 
 
 
@@ -108,13 +127,13 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block img-fluid" src="./pet-shop-frame-background_1284-18396.jpg"  alt="Pet shop slide image" width="900" height="350">
+              <img class="d-block img-fluid float-right" src="./deposit.jpg"  alt="Pet shop slide image" width="900" height="350">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="./dogFood.jpg" alt="Dog-food slide" width="900 height=350">
+              <img class="d-block img-fluid float-right" src="./dog-cart.jpg" alt="Dog-food slide" width="900" height="350">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="./dog-cart.jpg" alt="Third slide">
+              <img class="d-block img-fluid float-right" src="./petso.jpg" alt="Third slide" width="900" height="350">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -129,9 +148,9 @@
 </div>
         <div class="row align-items-right">
        
-          <div class="col-lg-4 col-md-6 mb-4"> 
+          <div class="col-lg-4 col-md-3 mb-4"> 
             
-            <div class="card h-100 ">
+            <div class="card h-85W-75">
               <a href="#"><img class="card-img-top" src="https://www.vetshop.co.uk/SCA%20Product%20Images/Bakers-Complete-Chicken-Veg-Dry-Dog-Food-14kg_vetshop-1.png?resizeid=4&resizeh=50&resizew=50" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
