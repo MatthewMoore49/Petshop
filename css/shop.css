@@ -1,7 +1,7 @@
 
 div.product{
     width:36vh;
-    height: 43vh;
+    height: 45vh;
     overflow:hidden;
     text-align: center;      
       color: slategrey;
@@ -9,7 +9,7 @@ div.product{
     
     }
     button.btn{
-            color: rgb(128, 15, 15);
+            color: rgb(228, 215, 215);
              font-size: 13px;
               line-height: 13px;
                padding: 5px; 
@@ -21,7 +21,7 @@ div.product{
                    font-variant: normal;
                     text-transform: none; 
                     background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
-                     box-shadow: rgb(80, 34, 34) 5px 5px 15px 5px;
+                     box-shadow: rgb(139, 78, 78) 5px 5px 15px 5px;
                       border: 2px solid rgb(28, 110, 164);
                        display: inline-block;}
            button :hover {

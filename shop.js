@@ -10,7 +10,7 @@ var service = [
       title: 'Cat color',
       image: './catcoll.jpeg',
       price: '19.99-$22.99',
-      description: " Collar for the cat's night out! "
+      description: " Collar for cat's night out! "
     },
     {
     title: 'Stud collar',
@@ -95,7 +95,7 @@ var service = [
     image: "./kittytoy.jpg",
     price: '2.99-$9.99',
     description: "Wide Variety"
-  },
+  }
 
 
 

@@ -25,13 +25,13 @@ textarea {
     background:rgb(1, 9, 10);
     position:relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     padding: 2rem;
-    background-color: #75a3a5;
+    background-color: #b0b7b8;
     background-image:         
     overflow:hidden;
     display: flex;
-    align-items: bottom;
+    align-items: center;
     justify-content: center;
     vertical-align: bottom;   
     
@@ -41,7 +41,7 @@ textarea {
     width: 100%;
     max-width: 820px;
     
-    background-color: rgb(125, 185, 211);
+    background-color: rgb(237, 241, 243);
     border-radius: 4px;
     box-shadow: 0 0 20px 1px rgba(39, 2, 2, 0.1);
     z-index: 1000;
@@ -60,7 +60,7 @@ footer{
 
 
 .contact-info-form {
-    background-color: #728e9e;
+    background-color: #96b3c4;
     position: relative
 }
 
