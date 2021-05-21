@@ -122,7 +122,7 @@ var service = [
    
   
   
-    for (var i=0; i < service.length; i++){
+    for (var i=1; i < service.length; i++){
         var heading = '<div class="product ' + '"><span><h5>' + service[i].title + '</h5>'
         var image = '<img src="' + service[i].image + '"/'
         var price = '<p> $' + service[i].price + '</p></span>'
